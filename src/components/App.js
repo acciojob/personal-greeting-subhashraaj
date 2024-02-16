@@ -11,7 +11,8 @@ const App = () => {
     <div>
         <lable htmlFor="name" >Enter your name<label>
         <input id="name" onChnage={onChangeText} />
-        {inputValue && <p>{`Hello ${inputValue}!`}  }
+        {inputValue && <p>{`Hello ${inputValue}!`</p>
+         {inputValue && <p>{`Hello ${inputValue}!`}</p>}
     </div>
   )
 }
