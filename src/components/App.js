@@ -10,9 +10,11 @@ const App = () => {
 
     return (
         <div>
-            <p>Enter your name:</p>
-            <input onChange={onChangeText}></input>
-            {inputValue && <p>{`Hello ${inputValue}!`}</p>}
+        <form>
+            <label>Enter your name:</label>
+            <input onChange={onChangeText} type"text />
+        </form>
+            <p>{`Hello ${inputValue}!`}</p>
         </div>
     )
 }
